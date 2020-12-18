@@ -1,0 +1,4 @@
+{{- $appId := .Site.Params.Instagram.AppId -}}
+{{- $clientToken := .Site.Params.Instagram.ClientToken -}}
+{{ $id := .Get 0 }}
+{{ with getJSON "https://graph.facebook.com/v8.0/instagram_oembed/?url=https://instagram.com/p/" $id "&access_token=<2800559346847904>|<be1ed41dd40ce76b139e16f3dcb60370>"}}{{ .html | safeHTML }}{{ end }}
