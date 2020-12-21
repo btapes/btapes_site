@@ -1,8 +1,8 @@
-baseURL = "https://gohugo.io"
+baseURL = "https://btapes.com"
 title = "bTapes"
 author = "Nazori"
 copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
-paginate = 3
+paginate = 6
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
