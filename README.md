@@ -1,12 +1,15 @@
-#Installing the server and firewall
+#Hugo Nginx server on Raspberry 3
+
+## Installing the server and firewall
 
 First, install the Nginx server, as well as UFW for a simple firewall.
 
-$ sudo apt install nginx ufw
+`sudo apt install nginx ufw`
+
 Set up the firewall
 Before doing anything, if you’re accessing the server via SSH, you should allow such traffic prior to enabling the firewall. Otherwise, you’ll lock yourself out of the server and we don’t want that. Assuming we’re using the default SSH port (22):
 
-$ sudo ufw allow 22
+sudo ufw allow 22
 $ sudo ufw reload
 If everything went right, you should still be in the server in your SSH session. Now, to allow traffic for the Nginx server, run:
 

@@ -35,10 +35,7 @@
     <!-- Script -->
 
   </head>
-  <body class="{{ if eq .Kind `page` }}single{{ else }}list{{ if .IsHome }} home{{ end }}{{ end }} dark">
-    <script>
-      setTheme();
-    </script>
+  <body class="{{ if eq .Kind `page` }}single{{ else }}list{{ if .IsHome }} home{{ end }}{{ end }} dark">   
     <header class="header">
       <nav class="nav">
         <h1 class="logo"><a href="/">{{ .Site.Title }}</a></h1>
