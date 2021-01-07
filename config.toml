@@ -19,11 +19,6 @@ theme = "hugo-paper-master"
     url = "/about/"
     weight = 10
 
-[params.instagram]
-appId = "2800559346847904"
-clientToken = "be1ed41dd40ce76b139e16f3dcb60370"
-
-
 [taxonomies]
 category = "categories"
 tag = "tags"
@@ -55,3 +50,6 @@ series = "series"
 
   [services.twitter]
     disableInlineCSS = true
+
+[markup.goldmark.renderer]
+    unsafe= true 

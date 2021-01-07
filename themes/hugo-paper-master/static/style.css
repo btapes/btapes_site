@@ -8,7 +8,12 @@
 
 /* Theme
 -------------------------------------------------- */
+
+
+
 :root {
+
+  
   --gap: 24px;
   --content-gap: 40px;
   --nav-width: 1024px;
@@ -178,6 +183,9 @@ img {
 }
 /* Main
 -------------------------------------------------- */
+
+
+
 .main {
   position: relative;
   min-height: calc(100vh - var(--header-height) - var(--footer-height));
@@ -281,6 +289,8 @@ img {
 }
 /* Post single
 -------------------------------------------------- */
+
+
 .post-header {
   margin-top: 24px;
   margin-bottom: var(--content-gap);
@@ -527,3 +537,4 @@ img {
   font-size: 160px;
   font-weight: 700;
 }
+
