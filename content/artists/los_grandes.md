@@ -3,7 +3,7 @@ title = "Los grandes del cante"
 weight = 4
 +++
 
-This is a project that I made with some friends making a cover of C.Tangana. It was made one morning for having some fun and the result is very unpolish. 
+This is a project that I made with some friends to make a cover of C.Tangana. It was made one morning to have some fun and the result is very unpolished. 
 
 The idea is to keep up on making more songs with spanish flamenco vibes, so hopefully we will get better and learn something from it.
 
